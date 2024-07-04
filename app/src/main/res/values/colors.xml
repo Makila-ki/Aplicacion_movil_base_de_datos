@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#FF2BF4</color>
+    <color name="colorNegation">#7B028F</color>
+    <color name="Amarillo">#FFEB3B</color>
+    <color name="colorCeleste">#00BCD4</color>
+    <color name="colorRojo">#F10000</color>
+    <color name="colorVerde">#29c96b</color>
+    <color name="colorNaranja">#ff9802</color>
+    <color name="colorLila">#cc35cc</color>
+    <color name="colorMarron">#894802</color>
+    <color name="colorLima">#81c10a</color>
+    <color name="colorGranada">#ae0101</color>
+    <color name="colorTurquesa">#41bfbf</color>
+    <color name="colorVinotinto">#89024c</color>
+    <color name="colorFucsia">#ff028d</color>
+    <color name="colorAzulRey">#272e51</color>
+    <color name="colorTeja">#c35c04</color>
+    <color name="colorVerdeAbeto">#0b7855</color>
+    <color name="colorAzul">#0a3782</color>
+    <color name="colorGris">#617e8d</color>
+    <color name="colorNegro">#000000</color>
+
+
+
+
+
+
+    <color name="rosa_fondo">#F6D6CF</color>
+    <color name="rosa_normal">#FF2BF4</color>
+    <color name="rosa_light">#BA54B5</color>
+    <color name="rosa_light2">#E91E63</color>
+    <color name="red">#F10000</color>
+    <color name="azul">#005EFF</color>
+    <color name="verde">#19FF00</color>
+</resources>

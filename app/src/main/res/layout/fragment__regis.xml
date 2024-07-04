@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Regis">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/rosa_fondo">
+
+        <ImageButton
+            android:id="@+id/CerrarReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="323dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/rosa_fondo"
+            android:src="@drawable/baseline_close_50" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="Sing Up"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/Nombre"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor"
+            android:hint="Nombre"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/Edad"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor"
+            android:hint="Edad"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/Usuario"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor"
+            android:hint="Usuario"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/Contrasena"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/texto_bor"
+            android:drawableRight="@drawable/baseline_visibility_off_24"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/Correo"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor"
+            android:hint="Correo"
+            android:textColorHint="@color/black"/>
+
+
+
+        <EditText
+            android:id="@+id/Telefono"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor"
+            android:hint="Telefono"
+            android:textColorHint="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="293dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/texto_bor2"
+            android:hint="Tipo"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/Ingresar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:width="3dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Ingresar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

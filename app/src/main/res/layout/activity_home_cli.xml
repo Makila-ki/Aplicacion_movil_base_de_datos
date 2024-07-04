@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D6CF"
+    android:orientation="horizontal"
+    tools:context=".Home_cli">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/Vistata_cli"
+        android:layout_width="match_parent"
+        android:layout_height="671dp"
+        android:layout_above="@+id/cardView_cli"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_cli"
+        android:background="@color/rosa_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navi_cli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nave"
+            android:elevation="4dp"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@drawable/item_sele"
+            app:itemTextColor="@color/rosa_light"
+            app:labelVisibilityMode="selected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/booton_nava_cli" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
